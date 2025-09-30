@@ -1,5 +1,5 @@
 /* Todos los elementos de la pagina */
-* 
+
 {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -38,4 +38,35 @@ em.especial
 /* Elementos "span" contenidos en la clase normal */
 .normal {
   font-weight: bold;
+}
+
+.roboto> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*aqu van los cambios en los links*/
+
+a:link 
+{
+color:green
+}
+
+a:visited
+{
+  color: red;
+}
+
+a:hover 
+{
+color: yellowgreen;
+}
+
+a:active 
+{
+  color: beige;
 }
